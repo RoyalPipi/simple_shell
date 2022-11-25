@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stddef.h>
 
 /**
@@ -39,7 +40,8 @@ void  exit_bul(char **cmd, char *input, char **argv, int c)
 
 /**
  * change_dir - This program Changes Dirctories
- * @cmd: Parsed Command * @er: Statue Last Command Excuted
+ * @cmd: Parsed Command
+ * @er: Statue Last Command Excuted
  * Return: 0 Succes 1 Failed (For Old Pwd Always 0 Case No Old PWD)
  */
 int change_dir(char **cmd, __attribute__((unused))int er)
