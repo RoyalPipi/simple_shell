@@ -87,7 +87,10 @@ void  exit_bul(char **cmd, char *input, char **argv, int c);
 int print_echo(char **cmd);
 
 /** ####error handle and Printer ####*/
+<<<<<<< HEAD
+=======
 
+>>>>>>> fa99c965c7b1af3d0e61587bd3b49a244247d866
 void print_number(unsigned int n);
 void print_number_in(int n);
 void print_error(char *line, int c, char **argv);
@@ -99,6 +102,10 @@ void _prerror(char **argv, int c, char **cmd);
  * @command:pointer to char
  * @fun:fun to excute when bultin true
  */
+<<<<<<< HEAD
+
+=======
+>>>>>>> fa99c965c7b1af3d0e61587bd3b49a244247d866
 typedef struct  bulltin
 {
 	char *command;
